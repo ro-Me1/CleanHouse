@@ -22,3 +22,42 @@ alert("Form submitted successfully!");
 });
 
 }
+
+const filterButtons = document.querySelectorAll(".filter-btn");
+
+filterButtons.forEach(button => {
+
+button.addEventListener("click", () => {
+
+const filter = button.dataset.filter;
+
+document.querySelectorAll(".gallery-item")
+.forEach(item => {
+
+if(filter === "all"){
+
+item.parentElement.style.display = "block";
+
+}
+
+else{
+
+if(item.dataset.category === filter){
+
+item.parentElement.style.display = "block";
+
+}
+
+else{
+
+item.parentElement.style.display = "none";
+
+}
+
+}
+
+});
+
+});
+
+});
