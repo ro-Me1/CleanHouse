@@ -23,3 +23,11 @@ footer{
 h1{
      color:#0d6efd;
 }
+
+@media(max-width:768px){
+
+h1{
+    font-size:2rem;
+}
+
+}
