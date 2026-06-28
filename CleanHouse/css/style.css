@@ -24,6 +24,24 @@ h1{
      color:#0d6efd;
 }
 
+.dark-mode{
+    background-color:#212529;
+    color:white;
+}
+
+.dark-mode .card{
+    background-color:#343a40;
+    color:white;
+}
+
+.dark-mode .navbar{
+    background-color:#000 !important;
+}
+
+.dark-mode footer{
+    background-color:#000 !important;
+}
+
 @media(max-width:768px){
 
 h1{
