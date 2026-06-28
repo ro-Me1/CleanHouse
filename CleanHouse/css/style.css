@@ -70,3 +70,27 @@ h1{
 }
 
 }
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6{
+
+    color:white;
+
+}
+
+.dark-mode p,
+.dark-mode li{
+
+    color:white;
+
+}
+
+.dark-mode section{
+
+    background-color:#212529;
+
+}
